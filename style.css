@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4; /* Cinza claro */
+    color: #333; /* Cinza escuro */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 150px; /* Ajuste o tamanho da foto conforme necessário */
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+h1 {
+    color: #007bff; /* Azul brilhante */
+    margin-bottom: 5px;
+}
+
+.sub-header {
+    color: #6c757d; /* Cinza mais escuro */
+}
+
+h2 {
+    color: #007bff;
+}
+
+a {
+    color: #dc3545; /* Vermelho */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.project {
+    border: 1px solid #ccc; /* Cinza mais claro */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.tool {
+    margin-bottom: 20px;
+}
+
+.level-bar {
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.intermediate {
+    background-color: #28a745; /* Verde */
+    width: 70%;
+}
+
+.basic {
+    background-color: #007bff; /* Azul brilhante */
+    width: 30%;
+}
+
+#contact {
+    text-align: center;
+}
+
+.contact-method {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+    color: #333; /* Cinza escuro */
+}
